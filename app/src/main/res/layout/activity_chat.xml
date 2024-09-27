@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chat_Activity">
+
+    <RelativeLayout
+        android:id="@+id/appbar_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Teal"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/chat_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginStart="15dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/profile_pic_layout">
+        </TextView>
+
+        <include layout="@layout/profile_pic_view"
+            android:id="@+id/profile_pic_layout"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="5dp"
+            android:layout_toRightOf="@id/back_btn"
+            ></include>
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/back_btn"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:tint="@color/white"
+            android:layout_centerVertical="true"
+            android:minHeight="48dp"
+            android:contentDescription="search_icon"
+            >
+        </ImageButton>
+    </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chat_recy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/appbar_2"
+        android:layout_above="@id/bottom_layout"
+        ></androidx.recyclerview.widget.RecyclerView>
+
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="8dp"
+        android:layout_alignParentBottom="true">
+
+        <EditText
+            android:id="@+id/msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Message.."
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:minHeight="60sp"
+            android:background="@drawable/edt_text_bag"
+            android:elevation="4dp"
+            android:padding="10dp"
+            android:layout_toLeftOf="@id/send_btn"
+            ></EditText>
+        <ImageButton
+            android:id="@+id/send_btn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/send"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:tint="@color/Teal"
+            android:contentDescription="Send_button"
+            android:padding="8dp"
+            android:layout_marginStart="10dp"
+            ></ImageButton>
+
+
+    </RelativeLayout>
+</RelativeLayout>
