@@ -16,7 +16,7 @@ This is a real-time chat application built using Android, Java, and Firebase. Th
 ***Firebase Cloud Messaging (FCM):*** For sending push notifications.
 
 # Prerequisites
-***Android Studio:*** Download and install Android Studio here.
+***Android Studio:*** Download and install Android Studio from the official website of Android.
 ***Firebase Account:*** Create a Firebase project and configure authentication and database from Firebase Console.
 
 # Installation Steps
