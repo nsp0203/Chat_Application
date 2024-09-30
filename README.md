@@ -17,6 +17,7 @@ This is a real-time chat application built using Android, Java, and Firebase. Th
 
 # Prerequisites
 ***Android Studio:*** Download and install Android Studio here.
+
 ***Firebase Account:*** Create a Firebase project and configure authentication and database from Firebase Console.
 
 # Installation Steps
