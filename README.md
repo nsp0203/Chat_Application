@@ -8,12 +8,12 @@ This is a real-time chat application built using Android, Java, and Firebase. Th
 ***Chat Rooms:*** Support for one-on-one chats.
 
 # Technologies Used
-***Android:*** For building the mobile app's user interface.
-***Java:*** Primary programming language used for building the app's logic.
-***Firebase Authentication:*** For managing user authentication securely.
-***Firebase Realtime Database:*** For storing and syncing messages in real-time.
-***Firebase Storage:*** For handling image uploads and storage.
-***Firebase Cloud Messaging (FCM):*** For sending push notifications.
+***Android:*** For building the mobile app's user interface.<br/>
+***Java:*** Primary programming language used for building the app's logic.<br/>
+***Firebase Authentication:*** For managing user authentication securely.<br/>
+***Firebase Realtime Database:*** For storing and syncing messages in real-time.<br/>
+***Firebase Storage:*** For handling image uploads and storage.<br/>
+***Firebase Cloud Messaging (FCM):*** For sending push notifications.<br/>
 
 # Prerequisites
 ***Android Studio:*** Download and install Android Studio from the official website of Android.
